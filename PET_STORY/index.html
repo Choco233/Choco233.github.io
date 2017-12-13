@@ -1,0 +1,53 @@
+<html>
+	<head>
+		<title> </title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body bgcolor="#f9b1b1">
+		<div id="title">
+			<h1>A Story With Pets</h1>
+			<p>Created By Feiyan Weng | DMS 121</p>
+		</div>
+
+		<form>
+			<p>What is the name of your character?</p>
+			<input type="text" name="name" value="" id="input_name">
+			<br>
+			<p>A woman or a man</p>
+			<input type="radio" name="gender" value="m">Man
+			<input type="radio" name="gender" value="f">Woman
+			<br>
+			<br>
+			<button type="button" onclick="update_name()">confirm</button>
+			<br>
+		<img src="dog1.jpg" width="280px" height="280px" style="vertical-align:top">
+		<img src="cat1.jpg" width="380px" height="280px" style="vertical-align:top">
+		<img src="hamster1.jpg" width="280px" height="280px" style="vertical-align:top">
+		<img src="rabbit1.jpg" width="380px" height="280px" style="vertical-align:top">
+		</form>
+		<p class="she" style="display:none">When <span class="name">I</span> was a child, she had strong interest in animals. She loved those cute pets with thick fur, such as <span style="color:blue" onclick="dog(this)">dog</span>, <span style="color:blue" onclick="cat(this)">cat</span>, <span style="color:blue" onclick="hamster(this)">hamster</span>, and <span style="color:blue" onclick="rabbit(this)">rabbit</span>. Raising a pet was complex, and she would need to put a lot of energy on them. They are not only a pet, but also her friends. If she thought she didn't have the confidence to take care of them for their whole lives, then she would not choose to raise them from the beginning.
+		<br>
+		<img src="dog1.jpg" width="280px" height="280px" style="vertical-align:top">
+		<img src="cat1.jpg" width="380px" height="280px" style="vertical-align:top">
+		<img src="hamster1.jpg" width="280px" height="280px" style="vertical-align:top">
+		<img src="rabbit1.jpg" width="380px" height="280px" style="vertical-align:top"></p>
+ 
+		<p class="he" style="display:none">When <span class="name">I</span> was a child, he had strong interest in animals. He loved those cute pets with thick fur, such as <span style="color:blue" onclick="dog(this)">dog</span>, <span style="color:blue" onclick="cat(this)">cat</span>, <span style="color:blue" onclick="hamster(this)">hamster</span>, and <span style="color:blue" onclick="rabbit(this)">rabbit</span>. Raising a pet was complex, and he would need to put a lot of energy on them. They are not only a pet, but also his friends. If he thought he didn't have the confidence to take care of them for their whole lives, then he would not choose to raise them from the beginning.
+		<br>
+		<img src="dog1.jpg" width="280px" height="280px" style="vertical-align:top">
+		<img src="cat1.jpg" width="380px" height="280px" style="vertical-align:top">
+		<img src="hamster1.jpg" width="280px" height="280px" style="vertical-align:top">
+		<img src="rabbit1.jpg" width="380px" height="280px" style="vertical-align:top"></p>
+			
+		<p id="dog" style="display:none">Dog is a very gentle animal. <span class="name">I</span> had one dog when <span class="name">I</span> was a primary school student. This dog was not a species of expensive dog, but he was <span class="name">my</span>'s playmates during the childhood. As a child, <span class="name">I</span> didn't know much about how to nurture and take care of a dog, and one day, due to a small mistake, <span class="name">my</span>'s dog ran out from an opened window, and <span class="name">I</span> could not find him anymore.<br><img src="dog2.jpeg" width="280px" height="280px" style="vertical-align:top"><img src="dog.gif" width="350px" height="280px"></p>
+
+		<p id="cat" style="display:none"><span class="name">I</span> was a dog person when <span class="name">I</span> was a primary school student. <span class="name">I</span> had one dog during the childhood. However, as <span class="name">I</span> grew up, <span class="name">I</span> felt stronger interest in cats. Not like dogs, cats are more elegant and indifferent. <span class="name">I</span> was attracted by this trait, and fell in love with cats. Cats' expressions were different from dogs. When they felt angry, happy, or afraid, the difference was just a tiny bit of details. It was really interesting to explore and understand the cat language.<br><img src="cat2.jpeg" width="280px" height="280px" style="vertical-align:top"><img src="cat.gif" width="400px" height="280px"></p>
+
+		<p id="hamster" style="display:none">When <span class="name">I</span> was a primary school student, <span class="name">I</span> brought a hamster. Hamster was very easy to feed, and <span class="name">I</span> treated this hamster as a friend. Unluckily, <span class="name">I</span> was bitten by the hamster two weeks later. It made <span class="name">my</span>'s mom became nervous, and she refused to let <span class="name">me</span> feed the hamster anymore. In that situation, <span class="name">I</span> would need to give the hamster away. It made <span class="name">me</span> feel unhappy for several months, and <span class="name">I</span> still remember that hamster until today.<br><img src="hamster2.jpg" width="280px" height="280px" style="vertical-align:top"><img src="hamster.gif" width="400px" height="280px"></p>
+		
+		<p id="rabbit" style="display:none">When <span class="name">I</span> was young, <span class="name">I</span> had some experience of raising the rabbit. Rabbit was a very fragile creature, and it was really hard to let them know when to drain and what time they should eat. If <span class="name">you</span> didn't control their food intake, they would keep eating until they consumed all the food. They are also afraid of cold, which might even kill them. Overall, the experience of raising a rabbit was not as good as taking care of a cat.<br><img src="rabbit2.jpg" width="280px" height="280px" style="vertical-align:top"><img src="rabbit.gif" width="400px" height="280px"></p>
+
+		<script src="scripts.js"></script>
+	</body>
+</html>
