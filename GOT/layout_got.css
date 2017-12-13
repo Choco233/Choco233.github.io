@@ -1,0 +1,90 @@
+body {
+	width: 960px;
+	margin: 0px auto;
+    text-align: center;
+}
+
+#header{
+    max-width: 940px;
+    min-width: 720px;
+    margin: 10px auto;
+    padding: 20px;
+    border: 4px double black;
+}
+
+ul{
+    width: 700px;
+    padding: 15px;
+    margin: 0px auto 0px auto;
+    border-top: 2px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+li{
+    display: inline;
+    margin: 0px 5px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #cc3333;
+}
+
+p{
+    border-color: #888888;
+    border-style: solid;
+    width: 880px;
+    margin: 0px auto 0px auto;
+}
+
+p.intro{
+    border-width: thick;
+    border-style: dashed;
+    padding: 20px 10px 5px 20px;
+    padding-top: 5px;
+    margin-bottom: 50px;
+}
+
+li{
+    display: inline;
+    margin-right: 20px;
+}
+
+#Home, #Introduction, #Comment, #Seasons {
+	background-color: #efefef;
+	padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+#content {
+	overflow: auto;
+}
+
+.column1, .column2, .column3, .column4, .column5, .column6, .column7{
+	width: 960px;
+	float: center;
+    margin: 10px;
+    background-color: #efefef;
+    text-align: center;
+}
+
+.cover{
+    display: inline;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#Comment {
+	clear: left;
+}
+
+li {
+	display: inline;
+	padding: 5px;
+}

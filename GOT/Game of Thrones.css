@@ -1,0 +1,70 @@
+.menu {
+    float:left;
+    font-size: 20px;
+    width: 120px;
+    list-style-type: none;
+    text-align:center;
+}
+
+.cover{
+    width: 200px;
+    opacity: 0.25;
+}
+
+.cover:hover{
+    opacity: 1.0;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+}
+#myBtn:hover {
+    background-color: #555;
+}
+
+h2 {
+	font-family: newFont, Georgia, serif;
+    font-size: 2em;
+    text-transform: lowercase;
+    letter-spacing: 0.2em;
+    color: #555555;
+	text-shadow: 2px 2px 3px #666666 ;
+}
+
+.credits {
+	font-family: "Courier New", Courier, monospace;
+	font-weight: bold;
+	font-style: oblique;
+	text-transform: capitalize;
+	text-decoration: underline;
+	text-decoration: overline;
+    text-decoration: line-through;
+    word-spacing: 1em;
+    text-align: right;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+	line-height: 1.4em;
+	text-align: justify;
+	text-indent: 1em;
+}
+
+p.intro:first-letter {
+	font-size: 200%;
+}
+
+p#intro:first-line {
+	font-weight: bold;
+}
